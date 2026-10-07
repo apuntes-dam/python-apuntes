@@ -10,9 +10,6 @@ Las colecciones donde se guardan los datos: cadenas, listas, mapas (diccionarios
 * Conjuntos: elementos sin repetir y operaciones de unión, intersección y diferencia.
 * JSON y XML: leer, modificar y guardar datos en un archivo.
 
-!!! tip "Dónde repasarlo en Python"
-    Documentación oficial: [docs.python.org (tutorial)](https://docs.python.org/es/3/tutorial/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

@@ -9,9 +9,6 @@ Hablar con el exterior: la consola, el sistema de archivos, los ficheros de text
 * Leer y escribir ficheros de texto, siempre cerrándolos y controlando errores.
 * Interfaces gráficas: componentes, estado y eventos.
 
-!!! tip "Dónde repasarlo en Python"
-    Documentación oficial: [docs.python.org (tutorial)](https://docs.python.org/es/3/tutorial/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

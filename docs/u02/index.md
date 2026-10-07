@@ -13,9 +13,6 @@ Las estructuras que controlan el flujo del programa: decidir (`if`, selección m
 * Excepciones: `try`, `catch`/`except`, `finally` y cómo lanzar una excepción propia.
 * Depuración: puntos de ruptura, avanzar paso a paso y observar variables.
 
-!!! tip "Dónde repasarlo en Python"
-    Documentación oficial: [docs.python.org (tutorial)](https://docs.python.org/es/3/tutorial/). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |
