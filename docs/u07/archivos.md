@@ -9,7 +9,7 @@ Consultar rutas, listar carpetas y crear o borrar ficheros y directorios.
 **Información de una ruta.** Pide una ruta y muestra: si existe, si es archivo o carpeta, su nombre, su ruta absoluta, su carpeta padre, su tamaño (si es archivo) y su fecha de última modificación. Si no existe, indícalo sin que el programa falle.
 
 !!! note "En Python"
-    Usa `pathlib.Path` (`exists`, `is_file`, `stat`, `resolve`) o el módulo `os`.
+    Usa `pathlib.Path` (`exists`, `is_file`, `stat`, `resolve`) o el módulo `os`; las excepciones concretas están en [7.E](t-path.md).
 
 ## Ejercicio 7.5
 

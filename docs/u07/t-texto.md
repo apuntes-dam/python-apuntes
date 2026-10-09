@@ -2,6 +2,9 @@
 
 Un **fichero de texto** guarda caracteres legibles (notas, configuraciones, registros, CSV, JSON...). Se puede abrir con cualquier editor, a diferencia de un fichero **binario** (una imagen, un ejecutable). Leer y escribir texto es lo más habitual al trabajar con datos.
 
+!!! tip "Leer y escribir por bloques"
+    Aquí se lee y escribe el archivo entero o línea a línea. Para trabajar **por bloques** y con ficheros **binarios** (bytes) mira [7.E](t-path.md).
+
 ## Crear, añadir y leer
 
 `Path.write_text` **crea o sobrescribe**; para **añadir** se abre con `open("a")`. `read_text().splitlines()` devuelve la lista de líneas. Para trabajar **línea a línea** se recorre el archivo abierto en un `for`, dentro de un bloque **`with`**, que **cierra** el archivo al terminar aunque haya un error. **Indica siempre `encoding="utf-8"`**: si no, Python usa la codificación del sistema, que en Windows puede no ser UTF-8.
