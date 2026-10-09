@@ -76,13 +76,16 @@ Pide el precio final de un artículo y, suponiendo un IVA del 10 %, muestra el I
 
 Pide tres números y muestra su suma.
 
+!!! note "En Python"
+    Si el usuario escribe los tres números en una sola línea (`4 5 6`), puedes leerla entera y separarla con `input().split()`.
+
 ## Ejercicio 1.2.8
 
-Resuelve el ejercicio 1.2.7 usando solo dos variables distintas.
+Pide una cantidad de segundos y muéstrala en horas, minutos y segundos. Por ejemplo, `3725` segundos son `1 h 2 min 5 s`.
 
 ## Ejercicio 1.2.9
 
-¿Se puede resolver el ejercicio 1.2.7 sin usar ninguna variable? Inténtalo y explica qué has hecho.
+Guarda dos valores en las variables `a` y `b`, pedidos por teclado. Intercambia sus valores (que `a` acabe con lo que tenía `b` y al revés) y muestra ambas variables antes y después del intercambio.
 
 ## Ejercicio 1.2.10
 
@@ -133,6 +136,9 @@ Una cuenta de ahorros da un 4 % de interés anual que se suma al saldo a final d
 
 Una panadería vende barras a 3,49 € (defínelo como constante). Las que no son del día tienen un 60 % de descuento. Lee cuántas barras no frescas se venden y muestra el precio habitual, el descuento aplicado y el coste total.
 
+!!! note "En Python"
+    Python no tiene constantes de verdad: se escribe en MAYÚSCULAS (`PRECIO_BARRA = 3.49`) por convención y no se modifica.
+
 ## Ejercicio 1.2.17
 
 Pide un nombre y un entero `n` y muestra el nombre `n` veces, cada una en una línea.
@@ -140,6 +146,9 @@ Pide un nombre y un entero `n` y muestra el nombre `n` veces, cada una en una l�
 ## Ejercicio 1.2.18
 
 Pide el nombre completo y muéstralo tres veces: todo en minúsculas, todo en mayúsculas y con la inicial de cada palabra en mayúscula. El usuario puede escribirlo con cualquier combinación de mayúsculas y minúsculas.
+
+!!! note "En Python"
+    `title()` pone la inicial de cada palabra en mayúscula.
 
 ## Ejercicio 1.2.19
 
@@ -165,6 +174,9 @@ Pide un correo electrónico y muestra otro con el mismo nombre de usuario (lo qu
 
 Pide el precio de un producto en euros con dos decimales y muestra cuántos euros y cuántos céntimos son.
 
+!!! note "En Python"
+    No obtengas los céntimos multiplicando el decimal por 100: `19.99 * 100` no da exactamente `1999` sino `1998.9999999999998`, y al quedarte con la parte entera salen 1998. Separa el texto por el punto o redondea.
+
 ## Ejercicio 1.2.25
 
 Pide una fecha de nacimiento con formato `dd/mm/aaaa` y muestra día, mes y año. Después adáptalo para que funcione si el día o el mes se escriben con un solo dígito.
@@ -177,9 +189,15 @@ Pide los productos de una cesta de la compra separados por comas y muestra cada 
 
 Pide el nombre de un producto, su precio y las unidades, y muestra una línea con el nombre, el precio unitario (6 dígitos enteros y 2 decimales), las unidades (3 dígitos) y el coste total (8 dígitos enteros y 2 decimales).
 
+!!! note "En Python"
+    Con f-strings: `f"{precio:9.2f}"` reserva 9 posiciones con 2 decimales.
+
 ## Ejercicio 1.2.28
 
 Calcula el área de un triángulo a partir de sus tres lados (fórmula de Herón). Indica qué ocurre si las longitudes no pueden formar un triángulo.
+
+!!! note "En Python"
+    Con `math.sqrt` de un número negativo Python lanza `ValueError`, y con `** 0.5` da un número complejo. Compruébalo antes de calcular.
 
 ## Ejercicio 1.2.29
 
